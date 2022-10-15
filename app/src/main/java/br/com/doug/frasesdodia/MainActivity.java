@@ -24,9 +24,10 @@ public class MainActivity extends AppCompatActivity {
                 "frase3",
                 "frase4",
                 "frase5",
-                "frase6"
+                "frase6",
+                "frase7"
         };
-        int numero = new Random().nextInt(6);
+        int numero = new Random().nextInt(7);
         TextView texto = findViewById(R.id.tv_frase);
         texto.setText(frases[numero]);
 
